@@ -70,5 +70,5 @@ if button:
         new_result = "You may not have a heart disease."
         st.success(f'The result is: {new_result}')
     else:
-        st.warning(f"You may have a heart disease.")
+        st.error(f"You may have a heart disease.")
     
