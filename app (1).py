@@ -61,6 +61,11 @@ input_data = [[
 
 result = model.predict(input_data)
 
+
 button=st.button("Submit here ")
+if result == 0:
+    new_result = "You may not have a heart disease."
+else:
+    new result = "You may have a Heart Disease."
 if button:
     st.success(f'The result is: {result}')
