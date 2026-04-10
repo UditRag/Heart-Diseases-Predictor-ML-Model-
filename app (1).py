@@ -67,8 +67,8 @@ button=st.button("Submit here ")
 
 if button:
     if result == 0:
-    new_result = "You may not have a heart disease."
-    st.success(f'The result is: {new_result}')
+        new_result = "You may not have a heart disease."
+        st.success(f'The result is: {new_result}')
     else:
-    st.warning(new_result)
+        st.warning(new_result)
     
